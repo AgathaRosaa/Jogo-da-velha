@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#table{
+    margin: 0 auto;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    font-size: 50px;
+    color: white;
+}
+
+.win{
+    background-color: green;
+}
+#button{
+    margin-top:30px;
+}

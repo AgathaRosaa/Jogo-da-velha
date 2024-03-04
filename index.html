@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+    <h1>JOGO DA VELHA</h1>
+    <hr>
+    <label for="player1">X</label>
+    <input type="text" id="player1" placeholder="Nome do jogador 1"/>
+    <label for="player2">O</label>
+    <input type="text" id="player2" placeholder="Nome do jogador 2"/>
+    <button onclick="start()">Start</button>
+    <h2 id="turnPlayer"> </h2>
+   <table id="table">
+    <tr>
+        <td class="quadrado" data-region="0.0"></td>
+        <td class="quadrado"  data-region="0.1"></td>
+        <td class="quadrado"  data-region="0.2"></td>
+    </tr>
+    <tr>
+        <td class="quadrado"  data-region="1.0"></td>
+        <td class="quadrado"  data-region="1.1"></td>
+        <td class="quadrado"  data-region="1.2"></td>
+    </tr>
+    <tr>
+        <td class="quadrado" data-region="2.0"></td>
+        <td class="quadrado"  data-region="2.1"></td>
+        <td class="quadrado"  data-region="2.2"></td>
+    </tr>
+   </table>
+
+   <button id="button" onclick="reset()">Reiniciar!</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
